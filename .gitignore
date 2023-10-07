@@ -1,0 +1,9 @@
+# Ignore system files and dependencies
+node_modules/
+.vscode/
+
+# Ignore logs and build artifacts
+/dist/
+
+# Ignore environment and package lock files
+package-lock.json
