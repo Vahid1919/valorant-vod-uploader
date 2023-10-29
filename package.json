@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "build": "tsc",
-    "dev": "tsc && node dist/index.js"	
+    "dev": "tsc && node dist/index.js"
   },
   "keywords": [],
   "author": "",
@@ -14,5 +14,8 @@
   "devDependencies": {
     "@types/node": "^20.8.3",
     "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "scan-dir-recursive": "^1.0.11"
   }
 }
